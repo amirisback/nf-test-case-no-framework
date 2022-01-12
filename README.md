@@ -17,7 +17,9 @@ What's New??
 ## Test Implementation
 
 ### Scenario Test
-![ScreenShoot Apps](docs/image/scenario_test.png?raw=true)
+![ScreenShoot Apps](docs/image/scenario-test-1.png?raw=true)
+![ScreenShoot Apps](docs/image/scenario-test-2.png?raw=true)
+
 - Kondisi Apps : Native Tanpa Framework
 - Membuat 2 Activity, MainActivity dan DetailActivity
 - Pada MainActivity di buat request data dari API Server
