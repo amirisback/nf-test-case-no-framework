@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.frogobox.testnoframework.R
-import com.frogobox.testnoframework.databinding.ItemMainBinding
 import com.frogobox.testnoframework.model.Article
 
 
@@ -26,11 +25,19 @@ class MainAdapter(private val listener: MainClickListener) : RecyclerView.Adapte
     private val listData = mutableListOf<Article>()
 
     fun setContent(data: List<Article>) {
+        listData.clear()
         listData.addAll(data)
     }
 
+    fun clearData() {
+        listData.clear()
+        notifyItemRangeRemoved(0, listData.size - 1)
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainHolder {
-        return MainHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_main, parent, false))
+        return MainHolder(
+            LayoutInflater.from(parent.context).inflate(R.layout.item_main, parent, false)
+        )
     }
 
     override fun onBindViewHolder(holder: MainHolder, position: Int) {
