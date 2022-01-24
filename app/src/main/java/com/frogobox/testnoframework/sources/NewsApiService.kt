@@ -1,11 +1,12 @@
-package com.frogobox.testnoframework.util
+package com.frogobox.testnoframework.sources
 
 import com.frogobox.testnoframework.util.NewsUrl.URL_EVERYTHING
 import com.frogobox.testnoframework.util.NewsUrl.URL_SOURCES
 import com.frogobox.testnoframework.util.NewsUrl.URL_TOP_HEADLINE
 import com.frogobox.testnoframework.model.ArticleResponse
 import com.frogobox.testnoframework.model.SourceResponse
-import io.reactivex.Observable
+import com.frogobox.testnoframework.util.NewsConstant
+import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -38,7 +39,7 @@ interface NewsApiService {
         @Query(NewsConstant.QUERY_COUNTRY) country: String?,
         @Query(NewsConstant.QUERY_PAGE_SIZE) pageSize: Int?,
         @Query(NewsConstant.QUERY_PAGE) page: Int?
-    ): Observable<ArticleResponse>
+    ): Call<ArticleResponse>
 
     // Get Everythings
     @GET(URL_EVERYTHING)
@@ -55,7 +56,7 @@ interface NewsApiService {
         @Query(NewsConstant.QUERY_SORT_BY) sortBy: String?,
         @Query(NewsConstant.QUERY_PAGE_SIZE) pageSize: Int?,
         @Query(NewsConstant.QUERY_PAGE) page: Int?
-    ): Observable<ArticleResponse>
+    ): Call<ArticleResponse>
 
     // Get Sources
     @GET(URL_SOURCES)
@@ -64,7 +65,7 @@ interface NewsApiService {
         @Query(NewsConstant.QUERY_LANGUAGE) language: String,
         @Query(NewsConstant.QUERY_COUNTRY) country: String,
         @Query(NewsConstant.QUERY_CATEGORY) category: String
-    ): Observable<SourceResponse>
+    ): Call<SourceResponse>
 
     // Please Add Your Code Under This Line --------------------------------------------------------
 
