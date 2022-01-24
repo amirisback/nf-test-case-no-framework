@@ -49,10 +49,16 @@ object NewsRepository : NewsDataSource {
                         response: Response<ArticleResponse>
                     ) {
                         callback.onHideProgress()
-                        if (response.body()?.articles?.isEmpty()!!) {
-                            callback.onEmpty()
-                        } else {
-                            callback.onSuccess(response.body()!!)
+                        response.body()?.let { it1 ->
+                            it1.articles.let {
+                                if (it != null) {
+                                    if (it.isEmpty()) {
+                                        callback.onEmpty()
+                                    } else {
+                                        callback.onSuccess(it1)
+                                    }
+                                }
+                            }
                         }
                     }
 
@@ -102,10 +108,16 @@ object NewsRepository : NewsDataSource {
                         response: Response<ArticleResponse>
                     ) {
                         callback.onHideProgress()
-                        if (response.body()?.articles?.isEmpty()!!) {
-                            callback.onEmpty()
-                        } else {
-                            callback.onSuccess(response.body()!!)
+                        response.body()?.let { it1 ->
+                            it1.articles.let {
+                                if (it != null) {
+                                    if (it.isEmpty()) {
+                                        callback.onEmpty()
+                                    } else {
+                                        callback.onSuccess(it1)
+                                    }
+                                }
+                            }
                         }
                     }
 
@@ -133,10 +145,16 @@ object NewsRepository : NewsDataSource {
                         response: Response<SourceResponse>
                     ) {
                         callback.onHideProgress()
-                        if (response.body()?.sources?.isEmpty()!!) {
-                            callback.onEmpty()
-                        } else {
-                            callback.onSuccess(response.body()!!)
+                        response.body()?.let { it1 ->
+                            it1.sources.let {
+                                if (it != null) {
+                                    if (it.isEmpty()) {
+                                        callback.onEmpty()
+                                    } else {
+                                        callback.onSuccess(it1)
+                                    }
+                                }
+                            }
                         }
                     }
 
