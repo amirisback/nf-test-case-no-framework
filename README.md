@@ -156,89 +156,89 @@ Using 2 Android Phone (Redmi Note 10 5G - Xiaomi M2103K19G) and (Oppo CPH1729)
         <td>1</td> <!-- No -->
         <td>Redmi Note 10 5G</td> <!-- Device -->
         <td>TC-1-A</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>11%</td> <!-- CPU Usage -->
+        <td>92.6 MB</td> <!-- Memory Usage -->
+        <td>2.6 KB/s</td> <!-- Network Usage Send -->
+        <td>7.3 KB/s</td> <!-- Network Usage Received -->
+        <td>Medium</td> <!-- Energy Usage -->
+        <td>3.2 second</td> <!-- Execution Time -->
     </tr>
     <tr>
         <td>2</td> <!-- No -->
         <td>Redmi Note 10 5G</td> <!-- Device -->
         <td>TC-1-B</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>11%</td> <!-- CPU Usage -->
+        <td>92.6 MB</td> <!-- Memory Usage -->
+        <td>0 MB/s</td> <!-- Network Usage Send -->
+        <td>0 MB/s</td> <!-- Network Usage Received -->
+        <td>Medium</td> <!-- Energy Usage -->
+        <td>0.64 second</td> <!-- Execution Time -->
     </tr>
     <tr>
         <td>3</td> <!-- No -->
         <td>Redmi Note 10 5G</td> <!-- Device -->
         <td>TC-2-A</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>5%</td> <!-- CPU Usage -->
+        <td>136.1 MB</td> <!-- Memory Usage -->
+        <td>10.6 KB/s</td> <!-- Network Usage Send -->
+        <td>298.6 KB/s</td> <!-- Network Usage Received -->
+        <td>Light</td> <!-- Energy Usage -->
+        <td>4.5 second</td> <!-- Execution Time -->
     </tr>
     <tr>
         <td>4</td> <!-- No -->
         <td>Redmi Note 10 5G</td> <!-- Device -->
         <td>TC-2-B</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>5%</td> <!-- CPU Usage -->
+        <td>136.1 MB</td> <!-- Memory Usage -->
+        <td>0 MB/s</td> <!-- Network Usage Send -->
+        <td>0 MB/s</td> <!-- Network Usage Received -->
+        <td>Light</td> <!-- Energy Usage -->
+        <td>0.9 second</td> <!-- Execution Time -->
     </tr>
     <tr>
         <td>5</td> <!-- No -->
         <td>Oppo CPH1729</td> <!-- Device -->
         <td>TC-1-A</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>2%</td> <!-- CPU Usage -->
+        <td>62.7 MB</td> <!-- Memory Usage -->
+        <td>11.8 KB/s</td> <!-- Network Usage Send -->
+        <td>108.9 KB/s</td> <!-- Network Usage Received -->
+        <td>-</td> <!-- Energy Usage -->
+        <td>2 second</td> <!-- Execution Time -->
     </tr>
     <tr>
         <td>6</td> <!-- No -->
         <td>Oppo CPH1729</td> <!-- Device -->
         <td>TC-1-B</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>2%</td> <!-- CPU Usage -->
+        <td>62.7 MB</td> <!-- Memory Usage -->
+        <td>0 MB/s</td> <!-- Network Usage Send -->
+        <td>0 MB/s</td> <!-- Network Usage Received -->
+        <td>-</td> <!-- Energy Usage -->
+        <td>0.4 second</td> <!-- Execution Time -->
     </tr>
     <tr>
         <td>7</td> <!-- No -->
         <td>Oppo CPH1729</td> <!-- Device -->
         <td>TC-2-A</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>6%</td> <!-- CPU Usage -->
+        <td>69 MB</td> <!-- Memory Usage -->
+        <td>2 KB/s</td> <!-- Network Usage Send -->
+        <td>48.3 KB/s</td> <!-- Network Usage Received -->
+        <td>-</td> <!-- Energy Usage -->
+        <td>5 second</td> <!-- Execution Time -->
     </tr>
     <tr>
         <td>8</td> <!-- No -->
         <td>Oppo CPH1729</td> <!-- Device -->
         <td>TC-2-B</td> <!-- Test Case -->
-        <td></td> <!-- CPU Usage -->
-        <td></td> <!-- Memory Usage -->
-        <td></td> <!-- Network Usage Send -->
-        <td></td> <!-- Network Usage Received -->
-        <td></td> <!-- Energy Usage -->
-        <td></td> <!-- Execution Time -->
+        <td>6%</td> <!-- CPU Usage -->
+        <td>69 MB</td> <!-- Memory Usage -->
+        <td>0 MB/s</td> <!-- Network Usage Send -->
+        <td>0 MB/s</td> <!-- Network Usage Received -->
+        <td>-</td> <!-- Energy Usage -->
+        <td>1 second</td> <!-- Execution Time -->
     </tr>
 </table>
 
