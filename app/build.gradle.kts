@@ -29,8 +29,7 @@ android {
         // Declaration apps name debug mode
         val debugAttribute = "Development"
         val nameAppDebug = "${ProjectSetting.NAME_APP} $debugAttribute"
-
-        resConfigs("en", "id")
+        resourceConfigurations += setOf("en", "id")
 
         // Inject app name for debug
         resValue("string", "app_name", nameAppDebug)
@@ -61,9 +60,13 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_11.toString()
     }
-
     packagingOptions {
-        exclude("META-INF/*")
+        jniLibs {
+            excludes += setOf("META-INF/*")
+        }
+        resources {
+            excludes += setOf("META-INF/*")
+        }
     }
 
 }
